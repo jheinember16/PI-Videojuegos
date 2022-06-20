@@ -7,7 +7,6 @@ const { Genre } = require("../db");
 const router = Router();
 
 router.get("/", async (req, res) => {
-  //try{  
     const genresApi = await axios.get(
         `https://api.rawg.io/api/genres?key=${API_KEY}`
     )
