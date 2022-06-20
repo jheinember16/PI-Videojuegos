@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { getDeleteDetail, getDetail } from "../redux/actions";
 import { Link } from "react-router-dom";
-//import "../css/Details.css";
+import "../css/Details.css";
 
 export default function Details() {
   const dispatch = useDispatch();
