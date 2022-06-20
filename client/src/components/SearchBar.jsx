@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useDispatch } from "react-redux"
 // importo mi action que me ayuda 
 // a traerme las videojegos por nombre
-//import '../css/SearchBar.css';
+import '../css/SearchBar.css';
 import { getNameVideogames } from '../redux/actions';
 
 export default function SearchBar() {
