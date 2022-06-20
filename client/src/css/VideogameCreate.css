@@ -1,0 +1,167 @@
+.activityCardContainer {
+    display: flex;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    margin: -9.5px 50px 60rem 40px;    
+    background-color: var(--mainColor);
+}
+
+.bRegresar{
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    margin: 3px 90px;
+    margin-top: 24px;
+    padding: 0.5px 1.5rem;
+    margin: 1.3rem 36rem ;   
+    box-shadow: 16px 1px 48px #0ecbd8da;
+    font-style: italic;    
+} 
+  
+  .activityCard {
+    border-radius: 33px;
+    padding: 20px 140px;
+    color: white;
+    margin-top: -105px;
+    border-radius: 40px;
+    text-transform: capitalize;      
+    border: none;
+    background-color: #b79973b9;
+    box-shadow: 16px 1px 48px #0ecbd8da;
+    backdrop-filter: blur(4px);  
+    background-color: var(--mainColor);      
+    backdrop-filter: blur(18px);
+  }
+  
+  .titleCreateActivity {
+    text-transform: uppercase;
+    font-size: 23px;
+    margin: -50px 0 50px 2px;
+    display: block;
+    text-align: center;    
+    font-style: italic;
+    color:rgb(241, 226, 226); 
+  }
+  
+  .inputActivities{
+      position:relative;
+      margin-bottom:25px;
+      color:black;
+
+  }
+  
+  .i{ 
+    border:0;
+    border-bottom:0.5px solid #555;  
+    background:transparent;
+    width:130%;
+    padding: 60px -14.5px 40px 5px;
+    font-size:15px;
+    color:white;
+  }
+
+  .inputSelect{ 
+    border:0;
+    border-bottom:0.5px solid #555;  
+    background:transparent;
+    width:130%;
+    padding: 60px -14.5px 40px 5px;
+    font-size:15px;
+    color:black;
+  }
+  .labelActivity{
+      position:absolute;
+      top:0px;
+      left:0px;
+      font-size:16px;
+      color:#fff;	
+      pointer-events: none;
+      transition: all 0.5s ease-in-out;
+  }
+
+  .inpuT{ 
+    border:0;  
+    background:transparent;
+    padding: 60px -14.5px 40px 5px;
+    font-size:15px;
+    color:#555;
+    font-style: italic;  
+  }
+
+  .labelX{
+    border:0;
+    background:transparent;
+    color:rgb(241, 226, 226);   
+    font-size:15px;
+  }
+ 
+  .i:focus{ 
+      border:none;	
+      outline:none;
+      border-bottom:1px solid #e74c3c;	
+  }
+  
+  .btnActivity{
+      color:#fff;
+      background-color:#e74c3c;
+      outline: none;
+      border: 0;
+      padding:10px 20px;
+      text-transform:uppercase;
+      margin-top:50px;
+      border-radius:25px;
+      cursor:pointer;
+      margin: 1rem 3rem;
+  }
+  
+  .i:focus ~ .labelActivity,
+  .i:valid ~ .labelActivity{
+      top:-12px;
+      font-size:12px;
+      
+  }
+  
+  .op{
+      background-color: white;
+  }
+    
+  
+  .countrieAndButton{
+    background-color: black;
+    border: grey 3px solid;
+    width: 3.2rem;
+    height: 3rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btnDelete{
+    color: white;
+    background-color: red;
+    width: 1rem;
+    height: 1rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 0 0 33px;
+    padding: 0 0 0 0 ;
+    border-radius: 10px;
+    border: 0 0 0 0;
+    cursor: pointer	;
+    font-size: 10px ;
+  }
+  
+  .pOfCountry{
+    margin: 5px;
+  }
+  
+  .e{
+      color: red;
+      font-size: small;
+  }
+
+
+  
