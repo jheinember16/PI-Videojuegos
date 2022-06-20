@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { getGenres, postVideogame,getVideogames } from "../redux/actions";
-import "../css/VideogameCreate.css";
+//import "../css/VideogameCreate.css";
 
 export default function VideogameCreate() {
   const dispatch = useDispatch();
