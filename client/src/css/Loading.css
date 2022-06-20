@@ -1,0 +1,15 @@
+.hijo{
+    margin:10px auto;
+    display:block;
+    justify-content: center;
+    padding: 220px;     
+    text-align: center;
+  }
+
+  .h3{
+    color: rgb(227, 116, 32);   
+    font-family: Apple Chancery;
+    font-style: italic;
+    font-size: 36px;
+
+  }
