@@ -1,0 +1,26 @@
+.pagi{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px;    
+}
+
+.butPaginado{
+    text-transform: capitalize;  
+    color: rgba(216, 170, 170, 0.781);  
+    border-radius: 5px;
+    margin: 16px;
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color:rgb(10, 9, 9);      
+    cursor: pointer;    
+    background-color: rgb(57, 199, 218);
+    border-color: rgba(31, 226, 57, 0);    
+}
+
+
+
+button:active {
+    color: red;
+  }
