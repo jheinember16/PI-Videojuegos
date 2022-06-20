@@ -1,0 +1,67 @@
+.but {
+    text-transform: capitalize;
+    color: rgba(58, 47, 47, 0.781);
+    border-radius: 5px;
+    margin-top: 13px;
+    margin: -5px 19px;
+    padding: 0px 12px;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    cursor: pointer;
+    border-color: rgba(177, 176, 100, 0);
+    box-shadow: 6px 6px 18px #8892cec9;
+    font-style: italic;
+}
+
+.CardGrid {
+    display: grid;    
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
+.contenedor{    
+    text-align: center;
+}
+
+.btzCrearVideojuego {
+    text-align: center;
+    padding: 0.1rem 3.5rem;
+    margin: 5rem;
+    text-decoration: none;        
+    background-color: #6f7abdc9;
+    box-shadow: 6px 6px 18px #8892cec9;    
+    color: rgb(236, 245, 238) !important;
+    border-radius: 7px;
+    text-transform: capitalize;
+    font-family: Century Gothic;    
+    text-transform: capitalize;
+} 
+
+.btzVolver {
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-size: 14.5px;
+    padding: 5px 0.5rem;
+    border: none;    
+    background-color: #6f7abdc9;
+    box-shadow: 6px 6px 18px #8892cec9;    
+    transition: 0.3s;
+    margin-top: 1px;
+    margin: 1rem 20rem;    
+    font-style: italic;     
+    color: rgb(236, 245, 238) !important;
+}
+
+.btzVolver:active {
+    transform: translateY(4px);
+}
+ 
+.btzCrearVideojuego:active {
+      transform: translateY(6px);
+}
+
