@@ -13,3 +13,5 @@ export default function Card({ name, image, rating, genres }) {
     </div>
   )
 }
+
+// componente Card
