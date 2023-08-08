@@ -1,13 +1,18 @@
-import "../css/Home.css"
+import "../css/Home.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import {
-  orderByAlfabetically,sortGamesByRating,filterVideogamesByOrigin,orderByGenero,getVideogames, getGenres,
+  orderByAlfabetically,
+  sortGamesByRating,
+  filterVideogamesByOrigin,
+  orderByGenero,
+  getVideogames,
+  getGenres,
 } from "../redux/actions";
 import Paginado from "../components/Paginado";
-import SearchBar from "../components/SearchBar"
+import SearchBar from "../components/SearchBar";
 import Card from "../components/Card";
 import Loading from "../components/Loading";
 
@@ -64,7 +69,14 @@ export default function Home() {
     return (
       <div>
         <ul className="contenedor">
-          <button className="btzVolver" onClick={e => { handleClick(e) }}>RECARGAR</button>
+          <button
+            className="btzVolver"
+            onClick={(e) => {
+              handleClick(e);
+            }}
+          >
+            RECARGAR
+          </button>
           <br />
           <Link className="btzCrearVideojuego" to="/videogame">
             CREAR VIDEOJUEGO
@@ -102,9 +114,6 @@ export default function Home() {
                 );
               })}
             </select>
-
-            
-            
           </div>
         </ul>
 
@@ -122,19 +131,22 @@ export default function Home() {
         />
 
         <ul className="CardGrid">
-          {
-            currentVideogames.map((vg) => {
-              return(
-                <Link key={vg.id} to={`/details/${vg.id}`}style={{ textDecoration: "none" }}>
-                  <Card
-                    name={vg.name}
-                    image={vg.image}
-                    rating={vg.rating}
-                    genres={ vg.genres.join(" - ")}
-                  />
-                </Link>
-              )
-            })}
+          {currentVideogames.map((vg) => {
+            return (
+              <Link
+                key={vg.id}
+                to={`/details/${vg.id}`}
+                style={{ textDecoration: "none" }}
+              >
+                <Card
+                  name={vg.name}
+                  image={vg.image}
+                  rating={vg.rating}
+                  genres={vg.genres.join(" - ")}
+                />
+              </Link>
+            );
+          })}
         </ul>
       </div>
     );
