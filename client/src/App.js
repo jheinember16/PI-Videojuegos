@@ -5,7 +5,7 @@ import Home from './components/Home'
 import VideogameCreate from './components/VideogameCreate'
 import Details from './components/Details'
 import axios from "axios"
-axios.defaults.baseURL = 'http://localhost:3001/'
+axios.defaults.baseURL = 'https://pi-videojuegos-production-6b9e.up.railway.app/'
 
 function App() {
   return (
